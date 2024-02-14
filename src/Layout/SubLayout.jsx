@@ -17,7 +17,6 @@ const SubLayout = ({ children }) => {
   const isNewsLetter = Cookies.get('newsLetterModal');
   const { themeOption } = useContext(ThemeOptionContext);
   useEffect(() => {
-    const message = ['⚡ Come Back !!!', "🔥 Don't forget this....."];
     let timer;
 
     const updateTitle = (index) => {
@@ -31,10 +30,7 @@ const SubLayout = ({ children }) => {
     if (!isTabActive) {
       updateTitle(0);
     } else {
-      let value =
-        themeOption?.general?.site_title && themeOption?.general?.site_tagline
-          ? `${themeOption?.general?.site_title} | ${themeOption?.general?.site_tagline}`
-          : 'FastKart Marketplace: Where Vendors Shine Together';
+      let value = 'Groxe';
       document.title = value;
       clearTimeout(timer);
     }

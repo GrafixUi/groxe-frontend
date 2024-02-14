@@ -23,7 +23,7 @@ const HeaderLogo = () => {
   const pathName = usePathname();
   const [isImage, setIsImage] = useState(false)
   useEffect(() => {
-    let tempLogo = themeOption?.logo?.header_logo?.original_url;
+    let tempLogo = logo;
     let tempBoolen = false
     if (pathName == `/${i18Lang}/theme/paris`) {
       tempBoolen = true

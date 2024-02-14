@@ -17,9 +17,8 @@ export async function generateMetadata() {
             },
         },
         openGraph: {
-            title: themeOption?.options?.seo?.og_title,
-            description: themeOption?.options?.seo?.og_description,
-            images: [themeOption?.options?.seo?.og_image?.original_url, []],
+            title: "Gorxe",
+           
         },
     }
 }

@@ -20,36 +20,6 @@ export const headerMenu = [
         image: paris,
       },
       {
-        title: 'Tokyo',
-        path: '/theme/tokyo',
-        image: tokyo,
-      },
-      {
-        title: 'Osaka',
-        path: '/theme/osaka',
-        image: osaka,
-      },
-      {
-        title: 'Rome',
-        path: '/theme/rome',
-        image: rome,
-      },
-      {
-        title: 'Madrid',
-        path: '/theme/madrid',
-        image: madrid,
-      },
-      {
-        title: 'Berlin',
-        path: '/theme/berlin',
-        image: berlin,
-      },
-      {
-        title: 'Denver',
-        path: '/theme/denver',
-        image: denver,
-      },
-      {
         title: '',
         path: '',
         image: commingSoon,
