@@ -16,6 +16,10 @@ const SubLayout = ({ children }) => {
   const isTabActive = TabFocusChecker();
   const isNewsLetter = Cookies.get('newsLetterModal');
   const { themeOption } = useContext(ThemeOptionContext);
+
+  const message = ["Groxe"];
+
+
   useEffect(() => {
     let timer;
 
