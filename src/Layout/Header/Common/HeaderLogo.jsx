@@ -3,16 +3,16 @@ import React, { useContext, useEffect, useState } from 'react';
 import Btn from '@/Elements/Buttons/Btn';
 import ThemeOptionContext from '@/Helper/ThemeOptionsContext';
 import Link from 'next/link';
-import logoImage from '../../../../public/assets/images/logo/1.png';
+import logoImage from '../../../../public/assets/images/logo/1.PNG';
 import { RiMenuLine } from 'react-icons/ri';
 import { usePathname } from 'next/navigation';
 import I18NextContext from '@/Helper/I18NextContext';
 import { useTranslation } from '@/app/i18n/client';
-import ParisLogo from '../../../../public/assets/images/logo/1.png';
-import TokyoLogo from '../../../../public/assets/images/logo/2.png';
-import RomeLogo from '../../../../public/assets/images/logo/3.png';
-import MadridLogo from '../../../../public/assets/images/logo/4.png';
-import OtherLogo from '../../../../public/assets/images/logo/6.png';
+import ParisLogo from '../../../../public/assets/images/logo/1.PNG';
+import TokyoLogo from '../../../../public/assets/images/logo/2.PNG';
+import RomeLogo from '../../../../public/assets/images/logo/3.PNG';
+import MadridLogo from '../../../../public/assets/images/logo/4.PNG';
+import OtherLogo from '../../../../public/assets/images/logo/6.PNG';
 import Image from 'next/image';
 
 const HeaderLogo = () => {
